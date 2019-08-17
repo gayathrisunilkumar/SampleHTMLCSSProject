@@ -1,0 +1,106 @@
+html,body{
+
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	color: black;
+	font-family: 'Lato';
+}
+
+.logo2 img{
+
+	max-height: 100%;
+	float: left;
+}
+.logo img{
+
+	max-height: 100%;
+	float: left;
+}
+
+.container{
+
+	height: 100%;
+}
+
+.header{
+
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 50px;
+	background-color: #5DADE2;
+	width: 100%;
+	position: fixed;
+}
+
+.nav-container a{
+
+	float: right;
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.nav-container2 a{
+
+	float: right;
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.container .content-container{
+
+	height: calc(100% - 50px);
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.content-container img{
+
+	width: 100%;
+	height: 435px;
+}
+
+.block{
+
+	width: 29%;
+	height: 100%;
+	padding: 1%;
+	margin: 14px;
+	background-color: #D7EFFB;
+	float: left;
+	text-align: justify;
+	border-radius: 20px;
+}
+
+#button{
+
+	float: right;
+	border-radius: 50%;
+	padding: 15px ;
+ 	background-color: #e7e7e7; color: black;
+}
+
+.footer2{
+
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #5DADE2;
+	position: fixed;
+}
+
+@media all and (max-width: 900px)
+{
+	.block{
+		width: auto;
+	}
+	.content-container img{
+		width: auto;
+	}
+}
+
+
